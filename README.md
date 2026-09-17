@@ -56,7 +56,7 @@ Claude Code 스킬입니다. 프로젝트 안에서 **결정 기록·코드·문
 
 ```bash
 git clone https://github.com/sulabo/driftmap.git ~/.claude/skills/ontology
-chmod +x ~/.claude/skills/ontology/*.sh
+chmod +x <skill-dir>/*.sh
 ```
 
 폴더 이름이 곧 스킬 이름입니다. `ontology`로 두면 Claude Code에서 "온톨로지 점검", "개념 지도 만들어줘", "신선도 점검"이라고 하면 발동합니다.
