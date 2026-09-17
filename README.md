@@ -1,4 +1,6 @@
-# Ontology — 프로젝트 지식이 서로 다른 말을 하는 지점을 찾는 스킬
+# driftmap
+
+**결정·코드·문서가 서로 다른 말을 하는 지점의 지도.**
 
 Claude Code 스킬입니다. 프로젝트 안에서 **결정 기록·코드·문서가 어긋난 곳**을
 개념 단위로 찾아내고, 그 지도를 git으로 신선하게 유지합니다.
@@ -53,11 +55,11 @@ Claude Code 스킬입니다. 프로젝트 안에서 **결정 기록·코드·문
 ## 설치
 
 ```bash
-git clone https://github.com/sulabo/ontology-skill.git ~/.claude/skills/ontology
+git clone https://github.com/sulabo/driftmap.git ~/.claude/skills/ontology
 chmod +x ~/.claude/skills/ontology/*.sh
 ```
 
-Claude Code에서 "온톨로지 점검", "개념 지도 만들어줘", "신선도 점검"이라고 하면 발동합니다.
+폴더 이름이 곧 스킬 이름입니다. `ontology`로 두면 Claude Code에서 "온톨로지 점검", "개념 지도 만들어줘", "신선도 점검"이라고 하면 발동합니다.
 
 ## 쓰는 법 — 네 가지 모드
 
@@ -119,7 +121,7 @@ Claude Code에서 "온톨로지 점검", "개념 지도 만들어줘", "신선�
 
 ## 짝이 되는 스킬
 
-[handoff](https://github.com/sulabo/handoff-skill) — 세션 인계서를 쓰면서
+[baton](https://github.com/sulabo/baton) — 세션 인계서를 쓰면서
 `DECISIONS.md`로 올릴 것을 함께 골라냅니다. 그렇게 쌓인 결정을 이 스킬이 읽습니다.
 
 ## 라이선스
